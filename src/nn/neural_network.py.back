@@ -1,0 +1,16 @@
+from numpy import exp
+from neuron_layer import NeuronLayer
+
+class NeuralNetwork():
+    def __init__(self, *layers):
+        if all(isinstance(layer, NeuronLayer) for layer in layers):
+            self.layers = tuple(layers)
+        else:
+            raise ValueError("Layers must be instances of NeuronLayers")
+        print(self.layers)
+
+    def _sigmoid(self, x):
+         return 1 / 1 + exp((-x))
+
+    def _sigmoid_derivate(self, x):
+         return x * (1 - x)
