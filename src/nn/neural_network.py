@@ -1,4 +1,6 @@
 import numpy as np
+from sklearn.datasets import load_iris
+from sklearn.preprocessing import MinMaxScaler
 
 class NeuralNetwork():
     def __init__(self, num_inputs, num_outputs=1, lr=0.1):
@@ -8,12 +10,12 @@ class NeuralNetwork():
         self.layers = []
 
     class Layer():
-        def __init__(self, num_neurons, num_inputs, activation_function='sigmoid'):
+        def __init__(self, num_neurons, num_inputs):
             self.num_neurons = num_neurons
             self.num_inputs = num_inputs
             self.weights = 2 * np.random.rand(num_inputs, num_neurons) -1
             self.bias = np.random.rand(1, num_neurons)
-            self.activation_function = self.activation_function(activation_function)
+            self.activation_function = self._sigmoid
             self.output = np.zeros(self.num_neurons)
 
         def activation_function(self, activation_function):
@@ -26,9 +28,6 @@ class NeuralNetwork():
 
         def _sigmoid(self, x):
             return 1.0 / (1.0 + np.exp(-x))
-
-        def _derivates_sigmoid(self, x):
-            return x * (1.0 - x)
 
     def add_layer(self, num_neurons):
         if not self.layers:
@@ -48,7 +47,6 @@ class NeuralNetwork():
 
 
         error_layer3 = y - self.layers[2].output
-        print(error_layer3)
         d_layer3 = error_layer3 * slope_layer3
 
         error_layer2 = np.dot(d_layer3, self.layers[2].weights.T)
@@ -68,14 +66,20 @@ class NeuralNetwork():
         return x * (1.0 - x)
 
 if __name__ == "__main__":
-    x = np.array([[0,0,0,0], [1,1,1,0], [0,0,1,0], [0,1,1,0]])
-    y = np.array([[0], [0], [0], [1]])
+    data = load_iris()
+    x = data.data[0:100]
+    y = data.target[0:100]
+    scaler = MinMaxScaler()
+    x = scaler.fit_transform(x)
+    print(x)
+    print(y)
+    y = np.reshape(y, (len(y), 1))
     nn = NeuralNetwork(4)
+    nn.add_layer(5)
     nn.add_layer(3)
-    nn.add_layer(10)
     nn.add_layer(1)
 
-    for i in range(1500):
-        (nn.forward(x))
+    for i in range(500):
+        print(nn.forward(x))
         nn.backpropagation(x, y)
 

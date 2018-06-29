@@ -1,23 +1,22 @@
 \documentclass[conference, german]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
-\usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage[utf8]{inputenc}
-\usepackage[
-type={CC},
-modifier={by-nc-sa},
-lang={german},
-version={4.0},
-hyphenation={raggedright}
-]{doclicense}
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
+\usepackage{acronym}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[backend=biber, natbib=true]{biblatex}
+\usepackage{tabularx}
+\usepackage{array, multirow} % tabularx: auf Textbreite vergrößern
+\usepackage{makecell}
+\usepackage{booktabs}
+\addbibresource{verzechnis.bib}
 
 \begin{document}
 
@@ -48,8 +47,64 @@ michael.schwab@hs-augsburg.de}
 	Namensnennung-Nicht kommerziell 4.0 International Lizenz}.
 \section{Einleitung} 
 \section{Konventionen}
+\begin{acronym}
+	\acro{knn}[KNN]{Künstliches Neuronales Netz}
+	\acroplural{knn}[KNNs]{Künstliche Neuronale Netze}
+	\acro{dl}[DL]{Deep Learning}
+	\acro{ids}[IDS]{Iris-Datensatz}
+	\acro{ml}[ML]{Machine Learning}
+\end{acronym}
 \section{Grundlagen}
 \subsection{Datensätze}
+Eine essentielle Kompenete des \ac{dl} sind Daten.
+Ein Datensatz ist eine Sammlung von Daten in einem gleichen oder ähnlichen Format.
+Möchte man \ac{dl} erlernen, steht man oft vor dem Problem keine passenden Daten parat zu haben.
+Aus diesem Grund gibt es verschiedene bereits gut klassifizierte Datensätze im Internet zu finden, die den Einstieg in das \ac{dl} erleichtern. 
+Ein Beispiel für einen dieser Datensätze ist der \ac{ids}\footnote{\url{https://archive.ics.uci.edu/ml/datasets/iris}}.
+\\\\
+Der \ac{ids} wurde 1936 von dem Statisker und Biologen Richard Fischer vorgestellt.
+Der Datensatz besteht aus 150 Einträgen und umfasst drei verschiedene Gattungen der Iris Blume.
+Jeder Eintrag einer einzelnen Blume wird jeweils durch sowohl durch die Blütenkelch Länge und Breite als auch durch die Blütenblatt Länge und Breite beschrieben.
+Die drei verschiedenen Gattungen der Iris Blume heißen Iris setosa, Iris virginica und Iris versitosa \citep[vgl.][]{WIKI01}.
+\begin{table}
+	\caption{Einträge aus dem \ac{ids}}
+	\label{table:ids}
+	\centering
+	\begin{tabular}{c c c c c c}
+	\toprule
+	{} &    Feature 1 & Feature 2 & Feature 3 & Feature 4 & Label \\
+	\midrule
+	0 &  5.1 &  3.5 &  1.4 &  0.2 &  Iris-setosa \\
+	1 &  4.9 &  3.0 &  1.4 &  0.2 &  Iris-setosa \\
+	2 &  4.7 &  3.2 &  1.3 &  0.2 &  Iris-setosa \\
+	3 &  4.6 &  3.1 &  1.5 &  0.2 &  Iris-setosa \\
+	4 &  5.0 &  3.6 &  1.4 &  0.2 &  Iris-setosa \\
+	\midrule
+	140 &  6.7 &  3.1 &  5.6 &  2.4 &  Iris-virginica \\
+	141 &  6.9 &  3.1 &  5.1 &  2.3 &  Iris-virginica \\
+	142 &  5.8 &  2.7 &  5.1 &  1.9 &  Iris-virginica \\
+	143 &  6.8 &  3.2 &  5.9 &  2.3 &  Iris-virginica \\
+	144 &  6.7 &  3.3 &  5.7 &  2.5 &  Iris-virginica \\
+	\bottomrule
+\end{tabular}
+\end{table}
+\\\\
+Tabelle \ref{table:ids} zeigt einen Auszug aus dem \ac{ids}.
+Anhand diesem Beispiels sollen drei Begriffe erklärt werden, die sehr häufig 
+im Bereich des \ac{ml} und \ac{dl} vorkommen.
+
+\paragraph{Sample}
+Ein Sample ist ein komplettes Beispiel aus einem Datensatz. 
+In den meißten Fällen ist ein Sample mit einer Reihe in einem Datensatz gleichzusetzen.
+In dem Fall des \ac{ids} entspricht ein Sample einer Blume mit ihren Eigenschaften und ihrer Gatung.
+\paragraph{Feature}
+Ein Feature ist beschreibt die Eigenschaften eines Samples.
+Im Falle des \ac{ids} hat jedes Sample vier Features.
+\paragraph{Label}
+Das Label drückt die Art des Samples aus, eine Zugehörigkeit zu einer Klasse.
+Im Falle des \ac{ids} besitzt jedes Sample ein Label. 
+Im ganzen Datensatz gibt es drei Labels, und zwar die drei Blumengattungen.
+
 \subsection{Python}
 \subsection{Python Bibliotheken}
 \subsection{Deep Learning Frameworks}
@@ -58,8 +113,9 @@ michael.schwab@hs-augsburg.de}
 \subsection{Das Perceptron}
 \subsection{Das ADALINE}
 \subsection{Aktivierungsfunktionen}
-\subsection{Fehlerfunktionen  }
+\subsection{Fehlerfunktionen}
 \subsection{Gradient Descent}
+\subsection{Stochastic und Batch Gradient Descent}
 \section{Künstliche Neuronale Netze}
 \subsection{Definition}
 \subsection{Arten des Deep Learning}
@@ -70,7 +126,9 @@ michael.schwab@hs-augsburg.de}
 \subsection{Das Densenet}
 \subsection{Das Convolutional Neural Network}
 \subsection{Das Recurrent Neural Network}
+
 %\begin{thebibliography}{00}
 %\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.	
 %\end{thebibliography}
+\printbibliography
 \end{document}
