@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  29 JUN 2018 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  30 JUN 2018 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,6 +1156,303 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count322
 \@thisrulewidth=\dimen163
 )
+(/usr/share/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2017/09/07 v3.24 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
+)))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \textsubscript on input line 1318.
+) (/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count323
+\l_tmpa_int=\count324
+\l_tmpb_int=\count325
+\g_tmpa_int=\count326
+\g_tmpb_int=\count327
+\g__intarray_font_int=\count328
+\g__prg_map_int=\count329
+\c_log_iow=\count330
+\l_iow_line_count_int=\count331
+\l__iow_line_target_int=\count332
+\l__iow_one_indent_int=\count333
+\l__iow_indent_int=\count334
+\c_zero_dim=\dimen164
+\c_max_dim=\dimen165
+\l_tmpa_dim=\dimen166
+\l_tmpb_dim=\dimen167
+\g_tmpa_dim=\dimen168
+\g_tmpb_dim=\dimen169
+\c_zero_skip=\skip68
+\c_max_skip=\skip69
+\l_tmpa_skip=\skip70
+\l_tmpb_skip=\skip71
+\g_tmpa_skip=\skip72
+\g_tmpb_skip=\skip73
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count335
+\c__fp_leading_shift_int=\count336
+\c__fp_middle_shift_int=\count337
+\c__fp_trailing_shift_int=\count338
+\c__fp_big_leading_shift_int=\count339
+\c__fp_big_middle_shift_int=\count340
+\c__fp_big_trailing_shift_int=\count341
+\c__fp_Bigg_leading_shift_int=\count342
+\c__fp_Bigg_middle_shift_int=\count343
+\c__fp_Bigg_trailing_shift_int=\count344
+\c__fp_rand_size_int=\count345
+\c__fp_rand_four_int=\count346
+\c__fp_rand_eight_int=\count347
+\l__sort_length_int=\count348
+\l__sort_min_int=\count349
+\l__sort_top_int=\count350
+\l__sort_max_int=\count351
+\l__sort_true_max_int=\count352
+\l__sort_block_int=\count353
+\l__sort_begin_int=\count354
+\l__sort_end_int=\count355
+\l__sort_A_int=\count356
+\l__sort_B_int=\count357
+\l__sort_C_int=\count358
+\l__tl_build_start_index_int=\count359
+\l__tl_build_index_int=\count360
+\l__tl_analysis_normal_int=\count361
+\l__tl_analysis_index_int=\count362
+\l__tl_analysis_nesting_int=\count363
+\l__tl_analysis_type_int=\count364
+\l__regex_internal_a_int=\count365
+\l__regex_internal_b_int=\count366
+\l__regex_internal_c_int=\count367
+\l__regex_balance_int=\count368
+\l__regex_group_level_int=\count369
+\l__regex_mode_int=\count370
+\c__regex_cs_in_class_mode_int=\count371
+\c__regex_cs_mode_int=\count372
+\l__regex_catcodes_int=\count373
+\l__regex_default_catcodes_int=\count374
+\c__regex_catcode_D_int=\count375
+\c__regex_catcode_S_int=\count376
+\c__regex_catcode_L_int=\count377
+\c__regex_catcode_O_int=\count378
+\c__regex_catcode_A_int=\count379
+\c__regex_all_catcodes_int=\count380
+\l__regex_show_lines_int=\count381
+\l__regex_min_state_int=\count382
+\l__regex_max_state_int=\count383
+\l__regex_left_state_int=\count384
+\l__regex_right_state_int=\count385
+\l__regex_capturing_group_int=\count386
+\l__regex_min_pos_int=\count387
+\l__regex_max_pos_int=\count388
+\l__regex_curr_pos_int=\count389
+\l__regex_start_pos_int=\count390
+\l__regex_success_pos_int=\count391
+\l__regex_curr_char_int=\count392
+\l__regex_curr_catcode_int=\count393
+\l__regex_last_char_int=\count394
+\l__regex_case_changed_char_int=\count395
+\l__regex_curr_state_int=\count396
+\l__regex_step_int=\count397
+\l__regex_min_active_int=\count398
+\l__regex_max_active_int=\count399
+\l__regex_replacement_csnames_int=\count400
+\l__regex_match_count_int=\count401
+\l__regex_min_submatch_int=\count402
+\l__regex_submatch_int=\count403
+\l__regex_zeroth_submatch_int=\count404
+\g__regex_trace_regex_int=\count405
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen170
+\l__box_bottom_dim=\dimen171
+\l__box_left_dim=\dimen172
+\l__box_right_dim=\dimen173
+\l__box_top_new_dim=\dimen174
+\l__box_bottom_new_dim=\dimen175
+\l__box_left_new_dim=\dimen176
+\l__box_right_new_dim=\dimen177
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen178
+\l__coffin_offset_x_dim=\dimen179
+\l__coffin_offset_y_dim=\dimen180
+\l__coffin_x_dim=\dimen181
+\l__coffin_y_dim=\dimen182
+\l__coffin_x_prime_dim=\dimen183
+\l__coffin_y_prime_dim=\dimen184
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen185
+\l__coffin_display_x_dim=\dimen186
+\l__coffin_display_y_dim=\dimen187
+\l__coffin_bounding_shift_dim=\dimen188
+\l__coffin_left_corner_dim=\dimen189
+\l__coffin_right_corner_dim=\dimen190
+\l__coffin_bottom_corner_dim=\dimen191
+\l__coffin_top_corner_dim=\dimen192
+\l__coffin_scaled_total_height_dim=\dimen193
+\l__coffin_scaled_width_dim=\dimen194
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count406
+\l__driver_tmp_box=\box45
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count407
+\g__xparse_grabber_int=\count408
+\l__xparse_m_args_int=\count409
+\l__xparse_mandatory_args_int=\count410
+\l__xparse_v_nesting_int=\count411
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count412
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip74
+\c@mdf@globalstyle@cnt=\count413
+\mdf@skipabove@length=\skip75
+\mdf@skipbelow@length=\skip76
+\mdf@leftmargin@length=\skip77
+\mdf@rightmargin@length=\skip78
+\mdf@innerleftmargin@length=\skip79
+\mdf@innerrightmargin@length=\skip80
+\mdf@innertopmargin@length=\skip81
+\mdf@innerbottommargin@length=\skip82
+\mdf@splittopskip@length=\skip83
+\mdf@splitbottomskip@length=\skip84
+\mdf@outermargin@length=\skip85
+\mdf@innermargin@length=\skip86
+\mdf@linewidth@length=\skip87
+\mdf@innerlinewidth@length=\skip88
+\mdf@middlelinewidth@length=\skip89
+\mdf@outerlinewidth@length=\skip90
+\mdf@roundcorner@length=\skip91
+\mdf@footenotedistance@length=\skip92
+\mdf@userdefinedwidth@length=\skip93
+\mdf@needspace@length=\skip94
+\mdf@frametitleaboveskip@length=\skip95
+\mdf@frametitlebelowskip@length=\skip96
+\mdf@frametitlerulewidth@length=\skip97
+\mdf@frametitleleftmargin@length=\skip98
+\mdf@frametitlerightmargin@length=\skip99
+\mdf@shadowsize@length=\skip100
+\mdf@extratopheight@length=\skip101
+\mdf@subtitleabovelinewidth@length=\skip102
+\mdf@subtitlebelowlinewidth@length=\skip103
+\mdf@subtitleaboveskip@length=\skip104
+\mdf@subtitlebelowskip@length=\skip105
+\mdf@subtitleinneraboveskip@length=\skip106
+\mdf@subtitleinnerbelowskip@length=\skip107
+\mdf@subsubtitleabovelinewidth@length=\skip108
+\mdf@subsubtitlebelowlinewidth@length=\skip109
+\mdf@subsubtitleaboveskip@length=\skip110
+\mdf@subsubtitlebelowskip@length=\skip111
+\mdf@subsubtitleinneraboveskip@length=\skip112
+\mdf@subsubtitleinnerbelowskip@length=\skip113
+
+(/usr/share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box46
+\mdf@footnotebox=\box47
+\mdf@splitbox@one=\box48
+\mdf@splitbox@two=\box49
+\mdf@splitbox@save=\box50
+\mdfsplitboxwidth=\skip114
+\mdfsplitboxtotalwidth=\skip115
+\mdfsplitboxheight=\skip116
+\mdfsplitboxdepth=\skip117
+\mdfsplitboxtotalheight=\skip118
+\mdfframetitleboxwidth=\skip119
+\mdfframetitleboxtotalwidth=\skip120
+\mdfframetitleboxheight=\skip121
+\mdfframetitleboxdepth=\skip122
+\mdfframetitleboxtotalheight=\skip123
+\mdffootnoteboxwidth=\skip124
+\mdffootnoteboxtotalwidth=\skip125
+\mdffootnoteboxheight=\skip126
+\mdffootnoteboxdepth=\skip127
+\mdffootnoteboxtotalheight=\skip128
+\mdftotallinewidth=\skip129
+\mdfboundingboxwidth=\skip130
+\mdfboundingboxtotalwidth=\skip131
+\mdfboundingboxheight=\skip132
+\mdfboundingboxdepth=\skip133
+\mdfboundingboxtotalheight=\skip134
+\mdf@freevspace@length=\skip135
+\mdf@horizontalwidthofbox@length=\skip136
+\mdf@verticalmarginwhole@length=\skip137
+\mdf@horizontalspaceofbox=\skip138
+\mdfsubtitleheight=\skip139
+\mdfsubsubtitleheight=\skip140
+\c@mdfcountframes=\count414
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count415
+\c@mdf@env@i=\count416
+\c@mdf@env@ii=\count417
+\c@mdf@zref@counter=\count418
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'ngerman'...
@@ -1172,41 +1469,41 @@ File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 (./Michael_Schwab_Deep_Learning.aux)
 \openout1 = `Michael_Schwab_Deep_Learning.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen164
-\scratchbox=\box30
-\nofMPsegments=\count324
-\nofMParguments=\count325
+\scratchcounter=\count419
+\scratchdimen=\dimen195
+\scratchbox=\box51
+\nofMPsegments=\count420
+\nofMParguments=\count421
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen165
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
+\MPscratchCnt=\count422
+\MPscratchDim=\dimen196
+\MPnumerator=\count423
+\makeMPintoPDFobject=\count424
 \everyMPtoPDFconversion=\toks29
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1225,8 +1522,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 21.
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring OFF on input line 24.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1234,11 +1531,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count329
+\c@section@level=\count425
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./Michael_Schwab_Deep_Learning.out) (./Michael_Schwab_Deep_Learning.out)
 \@outlinefile=\write5
@@ -1253,53 +1550,67 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Michael_Schwab_Deep_Learning.bbl' found.
 
 (./Michael_Schwab_Deep_Learning.bbl)
-Package biblatex Info: Reference section=0 on input line 21.
-Package biblatex Info: Reference segment=0 on input line 21.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 <img/by-nc.png, id=105, 97.0827pt x 33.9669pt>
 File: img/by-nc.png Graphic file (type png)
 <use img/by-nc.png>
-Package pdftex.def Info: img/by-nc.png  used on input line 44.
+Package pdftex.def Info: img/by-nc.png  used on input line 47.
 (pdftex.def)             Requested size: 97.08244pt x 33.96681pt.
 Package acronym Info: Label `acro:dl' newly defined as it shall be overridden
-although it is yet undefined on input line 59.
+although it is yet undefined on input line 64.
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
-although it is yet undefined on input line 63.
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+although it is yet undefined on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package acronym Info: Label `acro:ml' newly defined as it shall be overridden
-although it is yet undefined on input line 94.
+although it is yet undefined on input line 99.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--95
+Underfull \hbox (badness 10000) in paragraph at lines 64--100
 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 59--95
+Underfull \hbox (badness 1454) in paragraph at lines 64--100
 \OT1/ptm/m/n/10 Der [][] wur-de 1936 von dem Sta-tis-ker und Bio-lo-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--95
+Underfull \hbox (badness 10000) in paragraph at lines 64--100
 
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 59--95
+Underfull \hbox (badness 3428) in paragraph at lines 64--100
 \OT1/ptm/m/n/10 Tabelle []I[] zeigt einen Aus-zug aus dem [][]. An-hand
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+Package acronym Info: Label `acro:it' newly defined as it shall be overridden
+although it is yet undefined on input line 114.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./img/by-nc.png>]
+Package acronym Info: Label `acro:csv' newly defined as it shall be overridden
+although it is yet undefined on input line 124.
+
+Underfull \hbox (badness 1558) in paragraph at lines 123--125
+\OT1/ptm/m/n/10 Un-ter an-de-rem k[]onnen [][][]Coma Se-pe-ra-ted Va-lues
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1311,14 +1622,13 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 [2
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (./Michael_Schwab_Deep_Learning.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+] (./Michael_Schwab_Deep_Learning.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `Michael_Schwab_Deep_Learning.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 7ECA3F4C2D077B5F6DD28D96CD19C965;1619.
@@ -1326,24 +1636,25 @@ Package logreq Info: Writing requests to 'Michael_Schwab_Deep_Learning.run.xml'
 .
 \openout1 = `Michael_Schwab_Deep_Learning.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 16400 strings out of 492982
- 262323 string characters out of 6138579
- 743368 words of memory out of 5000000
- 19703 multiletter control sequences out of 15000+600000
- 43300 words of font info for 88 fonts, out of 8000000 for 9000
+ 26190 strings out of 492982
+ 463789 string characters out of 6138579
+ 945123 words of memory out of 5000000
+ 29437 multiletter control sequences out of 15000+600000
+ 571692 words of font info for 98 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 39i,9n,45p,1153b,1590s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,9n,45p,10457b,1597s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb
-i8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Michael_Schwab_Deep_Learning.pdf (2 pages, 65762 bytes).
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on Michael_Schwab_Deep_Learning.pdf (2 pages, 74346 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,6 +16,9 @@
 \usepackage{array, multirow} % tabularx: auf Textbreite vergrößern
 \usepackage{makecell}
 \usepackage{booktabs}
+\usepackage{scrextend}
+\usepackage{mdframed}
+\addtokomafont{labelinglabel}{\sffamily}
 \addbibresource{verzechnis.bib}
 
 \begin{document}
@@ -53,6 +56,8 @@ michael.schwab@hs-augsburg.de}
 	\acro{dl}[DL]{Deep Learning}
 	\acro{ids}[IDS]{Iris-Datensatz}
 	\acro{ml}[ML]{Machine Learning}
+	\acro{it}[IT]{Informationstechnik}
+	\acro{csv}[CSV]{Coma Seperated Values}
 \end{acronym}
 \section{Grundlagen}
 \subsection{Datensätze}
@@ -92,23 +97,39 @@ Die drei verschiedenen Gattungen der Iris Blume heißen Iris setosa, Iris virgin
 Tabelle \ref{table:ids} zeigt einen Auszug aus dem \ac{ids}.
 Anhand diesem Beispiels sollen drei Begriffe erklärt werden, die sehr häufig 
 im Bereich des \ac{ml} und \ac{dl} vorkommen.
-
-\paragraph{Sample}
-Ein Sample ist ein komplettes Beispiel aus einem Datensatz. 
-In den meißten Fällen ist ein Sample mit einer Reihe in einem Datensatz gleichzusetzen.
-In dem Fall des \ac{ids} entspricht ein Sample einer Blume mit ihren Eigenschaften und ihrer Gatung.
-\paragraph{Feature}
-Ein Feature ist beschreibt die Eigenschaften eines Samples.
-Im Falle des \ac{ids} hat jedes Sample vier Features.
-\paragraph{Label}
-Das Label drückt die Art des Samples aus, eine Zugehörigkeit zu einer Klasse.
-Im Falle des \ac{ids} besitzt jedes Sample ein Label. 
-Im ganzen Datensatz gibt es drei Labels, und zwar die drei Blumengattungen.
+\begin{mdframed}[backgroundcolor=lightgray]
+\begin{labeling}{data}
+	\item [Sample] Ein Sample ist ein komplettes Beispiel aus einem Datensatz. 
+	In den meißten Fällen ist ein Sample mit einer Reihe in einem Datensatz gleichzusetzen.
+	In dem Fall des \ac{ids} entspricht ein Sample einer Blume mit ihren Eigenschaften und ihrer Gattung.
+	\item [Feature] Ein Feature ist beschreibt die Eigenschaften eines Samples.
+	Im Falle des \ac{ids} hat jedes Sample vier Features.
+	\item [Label] Das Label drückt die Art des Samples aus, eine Zugehörigkeit zu einer Klasse.
+	Im Falle des \ac{ids} besitzt jedes Sample ein Label. 
+	Im ganzen Datensatz gibt es drei Labels, und zwar die drei Blumengattungen.
+\end{labeling}
+\end{mdframed}
 
 \subsection{Python}
+Laut Tiobe Index Juni 2018 ist Python die viert häufigst verwendete Programmiersprache \citep[vgl.][]{TIOBE}. Python gilt als sehr einfach zu lernen und zu schreibende Programmiersprache. Deshalb ist die Python in sehr vielen Disziplienen der \ac{it} vertreten,
+besonders auch im Bereich des Scientific Computing. Das die meißten großen \ac{dl}-Frameworks Python als erste Programmiersprache anbieten zeigt, dass Python sich auch hier durchsetzen konnte.
+Alle Code-Beispiele in dieser Arbeit sind in Python geschrieben.
 \subsection{Python Bibliotheken}
+Im Bereich des \ac{dl} gibt es eine Reihe von Python Bibliotheken, deren Einsatz stark zu empfehlen ist:
+\begin{mdframed}[backgroundcolor=lightgray]
+\begin{labeling}{bib}
+	\item [numpy] Numpy ist die Standart Python Bibiliothek für Matrizen Operationen.
+	Numpy ist hoch optimiert und extrem schnell. 
+	\item [pandas] Pandas ist eine Python Bibliothek Dataframe Objekte zur Verfügung stellt,
+	mit denen Daten leicht gelesen, bearbeitet und gespeichert werden können. Unter anderem können \ac{csv} Dateien gelesen werden.
+	\item [sklearn] Sklearn ist eine \ac{ml} Python Bibliothek die viele nützliche Funktionen zu dem Vorbereiten und Verarbeiten der Datensätze mitbringt.
+	\item [matplotlib] TODO
+\end{labeling}
+\end{mdframed}
 \subsection{Deep Learning Frameworks}
+TODO
 \subsection{Keras}
+TODO
 \section{Das Neuron}
 \subsection{Das Perceptron}
 \subsection{Das ADALINE}

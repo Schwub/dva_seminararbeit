@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'Michael_Schwab_Deep_Learning.blg'
-[30] biber:313> INFO - === Fr Jun 29, 2018, 22:08:16
-[48] Biber.pm:371> INFO - Reading 'Michael_Schwab_Deep_Learning.bcf'
-[105] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
-[118] Biber.pm:3976> INFO - Processing section 0
-[128] Biber.pm:4136> INFO - Looking for bibtex format file 'verzechnis.bib' for section 0
-[128] bibtex.pm:1500> INFO - LaTeX decoding ...
-[130] bibtex.pm:1316> INFO - Found BibTeX data source 'verzechnis.bib'
-[141] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[141] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[141] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[141] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[146] bbl.pm:617> INFO - Writing 'Michael_Schwab_Deep_Learning.bbl' with encoding 'UTF-8'
-[146] bbl.pm:720> INFO - Output to Michael_Schwab_Deep_Learning.bbl
+[29] biber:313> INFO - === Fr Jun 29, 2018, 23:15:36
+[46] Biber.pm:371> INFO - Reading 'Michael_Schwab_Deep_Learning.bcf'
+[108] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
+[122] Biber.pm:3976> INFO - Processing section 0
+[133] Biber.pm:4136> INFO - Looking for bibtex format file 'verzechnis.bib' for section 0
+[134] bibtex.pm:1500> INFO - LaTeX decoding ...
+[136] bibtex.pm:1316> INFO - Found BibTeX data source 'verzechnis.bib'
+[149] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[149] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[149] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[149] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[156] bbl.pm:617> INFO - Writing 'Michael_Schwab_Deep_Learning.bbl' with encoding 'UTF-8'
+[156] bbl.pm:720> INFO - Output to Michael_Schwab_Deep_Learning.bbl
