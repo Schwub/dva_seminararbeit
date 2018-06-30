@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  30 JUN 2018 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  30 JUN 2018 17:17
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Michael_Schwab_Deep_Learning.tex
 (./Michael_Schwab_Deep_Learning.tex
@@ -1453,6 +1453,187 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count418
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
+(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count419
+\calc@Bcount=\count420
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip141
+\calc@Bskip=\skip142
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count421
+\calc@Cskip=\skip143
+)
+(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count422
+\l_MT_multwidth_dim=\dimen197
+\origjot=\skip144
+\l_MT_shortvdotswithinadjustabove_dim=\dimen198
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen199
+\l_MT_above_intertext_sep=\dimen256
+\l_MT_below_intertext_sep=\dimen257
+\l_MT_above_shortintertext_sep=\dimen258
+\l_MT_below_shortintertext_sep=\dimen259
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count423
+\lst@gtempboxa=\box51
+\lst@token=\toks28
+\lst@length=\count424
+\lst@currlwidth=\dimen260
+\lst@column=\count425
+\lst@pos=\count426
+\lst@lostspace=\dimen261
+\lst@width=\dimen262
+\lst@newlines=\count427
+\lst@lineno=\count428
+\lst@maxwidth=\dimen263
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count429
+\lst@skipnumbers=\count430
+\lst@framebox=\box52
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2017/11/29 v2.01 (include SVG pictures)
+
+(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+\c@svg@param@lastpage=\count431
+\c@svg@param@currpage=\count432
+
+(/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "Michael_Schwab_Deep_Learning.w18")...executed.
+
+
+(./Michael_Schwab_Deep_Learning.w18)
+runsystem(rm -- "Michael_Schwab_Deep_Learning.w18")...executed.
+
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+)
+(/usr/share/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count433
+\FV@InFile=\read2
+\FV@TabBox=\box53
+\c@FancyVerbLine=\count434
+\FV@StepNumber=\count435
+\FV@OutFile=\write5
+) (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count436
+\output=\toks29
+\linenoprevgraf=\count437
+\linenumbersep=\dimen264
+\linenumberwidth=\dimen265
+\c@linenumber=\count438
+\c@pagewiselinenumber=\count439
+\c@LN@truepage=\count440
+\c@internallinenumber=\count441
+\c@internallinenumbers=\count442
+\quotelinenumbersep=\dimen266
+\bframerule=\dimen267
+\bframesep=\dimen268
+\bframebox=\box54
+
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \\ on input line 3056.
+)
+
+Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
+rning from the lineno package on input line 37.
+
+\c@FV@TrueTabGroupLevel=\count443
+\c@FV@TrueTabCounter=\count444
+\FV@TabBox@Group=\box55
+\FV@TmpLength=\skip145
+\c@FV@HighlightLinesStart=\count445
+\c@FV@HighlightLinesStop=\count446
+\FV@LoopCount=\count447
+\FV@NCharsBox=\box56
+\FV@BreakIndent=\dimen269
+\FV@BreakIndentNChars=\count448
+\FV@BreakSymbolSepLeft=\dimen270
+\FV@BreakSymbolSepLeftNChars=\count449
+\FV@BreakSymbolSepRight=\dimen271
+\FV@BreakSymbolSepRightNChars=\count450
+\FV@BreakSymbolIndentLeft=\dimen272
+\FV@BreakSymbolIndentLeftNChars=\count451
+\FV@BreakSymbolIndentRight=\dimen273
+\FV@BreakSymbolIndentRightNChars=\count452
+\c@FancyVerbLineBreakLast=\count453
+\FV@LineBox=\box57
+\FV@LineIndentBox=\box58
+) (/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip146
+\fb@frw=\dimen274
+\fb@frh=\dimen275
+\FrameRule=\dimen276
+\FrameSep=\dimen277
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count454
+\float@exts=\toks30
+\float@box=\box59
+\@float@everytoks=\toks31
+\@floatcapt=\box60
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box61
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count455
+\c@minted@pygmentizecounter=\count456
+\@float@every@listing=\toks32
+\c@listing=\count457
+)
+runsystem(mkdir -p _minted-Michael_Schwab_Deep_Learning)...executed.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'ngerman'...
@@ -1466,45 +1647,51 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 ))
+runsystem(which pygmentize && touch Michael_Schwab_Deep_Learning.aex)...execute
+d.
+
+runsystem(rm Michael_Schwab_Deep_Learning.aex)...executed.
+
+
 (./Michael_Schwab_Deep_Learning.aux)
 \openout1 = `Michael_Schwab_Deep_Learning.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count419
-\scratchdimen=\dimen195
-\scratchbox=\box51
-\nofMPsegments=\count420
-\nofMParguments=\count421
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count422
-\MPscratchDim=\dimen196
-\MPnumerator=\count423
-\makeMPintoPDFobject=\count424
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count458
+\scratchdimen=\dimen278
+\scratchbox=\box62
+\nofMPsegments=\count459
+\nofMParguments=\count460
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count461
+\MPscratchDim=\dimen279
+\MPnumerator=\count462
+\makeMPintoPDFobject=\count463
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1522,8 +1709,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 24.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1531,15 +1718,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count425
+\c@section@level=\count464
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./Michael_Schwab_Deep_Learning.out) (./Michael_Schwab_Deep_Learning.out)
-\@outlinefile=\write5
-\openout5 = `Michael_Schwab_Deep_Learning.out'.
+\@outlinefile=\write7
+\openout7 = `Michael_Schwab_Deep_Learning.out'.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1550,67 +1737,302 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Michael_Schwab_Deep_Learning.bbl' found.
 
 (./Michael_Schwab_Deep_Learning.bbl)
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
-<img/by-nc.png, id=105, 97.0827pt x 33.9669pt>
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
+\c@lstlisting=\count465
+<img/by-nc.png, id=97, 97.0827pt x 33.9669pt>
 File: img/by-nc.png Graphic file (type png)
 <use img/by-nc.png>
-Package pdftex.def Info: img/by-nc.png  used on input line 47.
+Package pdftex.def Info: img/by-nc.png  used on input line 59.
 (pdftex.def)             Requested size: 97.08244pt x 33.96681pt.
 Package acronym Info: Label `acro:dl' newly defined as it shall be overridden
-although it is yet undefined on input line 64.
+although it is yet undefined on input line 78.
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
-although it is yet undefined on input line 68.
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+although it is yet undefined on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package acronym Info: Label `acro:ml' newly defined as it shall be overridden
-although it is yet undefined on input line 99.
+although it is yet undefined on input line 113.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--100
+Underfull \hbox (badness 10000) in paragraph at lines 78--114
 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 64--100
+Underfull \hbox (badness 1454) in paragraph at lines 78--114
 \OT1/ptm/m/n/10 Der [][] wur-de 1936 von dem Sta-tis-ker und Bio-lo-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--100
+Underfull \hbox (badness 10000) in paragraph at lines 78--114
 
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 64--100
+Underfull \hbox (badness 3428) in paragraph at lines 78--114
 \OT1/ptm/m/n/10 Tabelle []I[] zeigt einen Aus-zug aus dem [][]. An-hand
  []
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 115.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 Package acronym Info: Label `acro:it' newly defined as it shall be overridden
-although it is yet undefined on input line 114.
+although it is yet undefined on input line 128.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./img/by-nc.png>]
-Package acronym Info: Label `acro:csv' newly defined as it shall be overridden
-although it is yet undefined on input line 124.
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
 
-Underfull \hbox (badness 1558) in paragraph at lines 123--125
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.131 \subsection
+                 {Python Bibliotheken} <./img/by-nc.png>]
+Package acronym Info: Label `acro:csv' newly defined as it shall be overridden
+although it is yet undefined on input line 138.
+
+Underfull \hbox (badness 1558) in paragraph at lines 137--139
 \OT1/ptm/m/n/10 Un-ter an-de-rem k[]onnen [][][]Coma Se-pe-ra-ted Va-lues
  []
 
+<img/perceptron.png, id=150, 353.52075pt x 276.43275pt>
+File: img/perceptron.png Graphic file (type png)
+<use img/perceptron.png>
+Package pdftex.def Info: img/perceptron.png  used on input line 162.
+(pdftex.def)             Requested size: 252.0pt x 197.04895pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+[]\OT1/ptm/m/n/10 Das Kon-zept des Per-zep-trons wird im Bild []1[]
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 wer-den auf-sum-miert, die Bi-as Va-ria-ble ad-diert. Ist das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 Die F[]ahigkeit zu ler-nen erh[]alt das Per-zep-tron durch
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 Ro-sen-blatts Per-zep-tron Lern Al-go-rith-mus. Die-ser sagt
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 186.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 186.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) (../src/perceptron.py
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.13         #
+              Insert Bias of 1 at Postion 0 <./img/perceptron.png>]
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 13.
+)
+Underfull \hbox (badness 1748) in paragraph at lines 188--190
+\OT1/ptm/m/n/10 m[]ussen, da je-der In-put(jedes Fea-ture) mit ei-ner eig-nen
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 188--190
+\OT1/ptm/m/n/10 Me-tho-de lie-fert das Er-geb-nis der \OT1/ptm/m/it/10 bi-na-ry
+[]step \OT1/ptm/m/n/10 Me-tho-de
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 188--190
+\OT1/ptm/m/n/10 In der \OT1/ptm/m/it/10 pre-dict \OT1/ptm/m/n/10 Me-tho-de wer-
+den die Ein-ga-be-wer-te mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+<img/adaline.png, id=183, 451.6875pt x 182.18062pt>
+File: img/adaline.png Graphic file (type png)
+<use img/adaline.png>
+Package pdftex.def Info: img/adaline.png  used on input line 203.
+(pdftex.def)             Requested size: 252.0pt x 101.64238pt.
+
+Underfull \vbox (badness 5431) has occurred while \output is active []
+
+
+(../src/adaline.py) [3pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.214 ...sting[language=Python]{../src/adaline.py}
+                                                   <./img/adaline.png (PNG copy
+)>]
+<plots/binary_step.png, id=241, 462.528pt x 346.896pt>
+File: plots/binary_step.png Graphic file (type png)
+<use plots/binary_step.png>
+Package pdftex.def Info: plots/binary_step.png  used on input line 219.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+Package acronym Info: Label `acro:relu' newly defined as it shall be overridden
+
+although it is yet undefined on input line 224.
+<plots/sigmoid.png, id=244, 462.528pt x 346.896pt>
+File: plots/sigmoid.png Graphic file (type png)
+<use plots/sigmoid.png>
+Package pdftex.def Info: plots/sigmoid.png  used on input line 229.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<plots/tanh.png, id=246, 462.528pt x 346.896pt>
+File: plots/tanh.png Graphic file (type png)
+<use plots/tanh.png>
+Package pdftex.def Info: plots/tanh.png  used on input line 238.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+<plots/relu.png, id=250, 462.528pt x 346.896pt>
+File: plots/relu.png Graphic file (type png)
+<use plots/relu.png>
+Package pdftex.def Info: plots/relu.png  used on input line 246.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.250 
+       <./plots/binary_step.png> <./plots/sigmoid.png> <./plots/tanh.png>]
+Package svg Info: Last page of `./svg-inkscape/not_hidden_svg-tex.pdf' is 3 on 
+input line 259.
+
+(./svg-inkscape/not_hidden_svg-tex.pdf_tex
+<./svg-inkscape/not_hidden_svg-tex.pdf, id=266, page=1, 191.71625pt x 352.31625
+pt>
+File: ./svg-inkscape/not_hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/not_hidden_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/not_hidden_svg-tex.pdf , page1 used on 
+input line 56.
+(pdftex.def)             Requested size: 252.0pt x 463.12894pt.
+<./svg-inkscape/not_hidden_svg-tex.pdf, id=267, page=2, 191.71625pt x 352.31625
+pt>
+File: ./svg-inkscape/not_hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/not_hidden_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/not_hidden_svg-tex.pdf , page2 used on 
+input line 58.
+(pdftex.def)             Requested size: 252.0pt x 463.12894pt.
+<./svg-inkscape/not_hidden_svg-tex.pdf, id=268, page=3, 191.71625pt x 352.31625
+pt>
+File: ./svg-inkscape/not_hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/not_hidden_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/not_hidden_svg-tex.pdf , page3 used on 
+input line 60.
+(pdftex.def)             Requested size: 252.0pt x 463.12894pt.
+)
+Package acronym Info: Label `acro:knn' newly defined as it shall be overridden
+although it is yet undefined on input line 260.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package svg Info: Last page of `./svg-inkscape/hidden_svg-tex.pdf' is 4 on inpu
+t line 265.
+
+(./svg-inkscape/hidden_svg-tex.pdf_tex
+<./svg-inkscape/hidden_svg-tex.pdf, id=271, page=1, 315.1775pt x 268.00125pt>
+File: ./svg-inkscape/hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/hidden_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/hidden_svg-tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 252.0pt x 214.28268pt.
+<./svg-inkscape/hidden_svg-tex.pdf, id=272, page=2, 315.1775pt x 268.00125pt>
+File: ./svg-inkscape/hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/hidden_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/hidden_svg-tex.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 252.0pt x 214.28268pt.
+<./svg-inkscape/hidden_svg-tex.pdf, id=273, page=3, 315.1775pt x 268.00125pt>
+File: ./svg-inkscape/hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/hidden_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/hidden_svg-tex.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 252.0pt x 214.28268pt.
+<./svg-inkscape/hidden_svg-tex.pdf, id=274, page=4, 315.1775pt x 268.00125pt>
+File: ./svg-inkscape/hidden_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/hidden_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/hidden_svg-tex.pdf , page4 used on inpu
+t line 62.
+(pdftex.def)             Requested size: 252.0pt x 214.28268pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.269 \subsection
+                 {Arten des Deep Learning}pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.7}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.269 \subsection
+                 {Arten des Deep Learning} <./plots/relu.png> <./svg-inkscape/n
+ot_hidden_svg-tex.pdf> <./svg-inkscape/not_hidden_svg-tex.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/not_hidden_svg-tex.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/not_hidden_svg-tex.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/not_hidden_svg-tex.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] (../src/nn/neural_network.py)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1622,39 +2044,65 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
-[2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) 
+has been already used, duplicate ignored
 
-] (./Michael_Schwab_Deep_Learning.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 \end{document}
+                     <./svg-inkscape/hidden_svg-tex.pdf> <./svg-inkscape/hidden
+_svg-tex.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/hidden_svg-tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/hidden_svg-tex.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/hidden_svg-tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/hidden_svg-tex.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/hidden_svg-tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
+ (./Michael_Schwab_Deep_Learning.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `Michael_Schwab_Deep_Learning.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 7ECA3F4C2D077B5F6DD28D96CD19C965;1619.
+(rerunfilecheck)             Checksum: 606193B5DBB6CA3EA60879664D4F44D0;1481.
 Package logreq Info: Writing requests to 'Michael_Schwab_Deep_Learning.run.xml'
 .
 \openout1 = `Michael_Schwab_Deep_Learning.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
  ) 
 Here is how much of TeX's memory you used:
- 26190 strings out of 492982
- 463789 string characters out of 6138579
- 945123 words of memory out of 5000000
- 29437 multiletter control sequences out of 15000+600000
- 571692 words of font info for 98 fonts, out of 8000000 for 9000
+ 31343 strings out of 492982
+ 558803 string characters out of 6138579
+ 1255716 words of memory out of 5000000
+ 34356 multiletter control sequences out of 15000+600000
+ 573339 words of font info for 104 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 46i,9n,45p,10457b,1597s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,52p,10439b,2065s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on Michael_Schwab_Deep_Learning.pdf (2 pages, 74346 bytes).
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucr
+b8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/t
+exmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.p
+fb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on Michael_Schwab_Deep_Learning.pdf (6 pages, 293213 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

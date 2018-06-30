@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{ZAHID}{online}{}
+      \name{author}{1}{}{%
+        {{hash=793be285713c3ddc5b428cc145c5cfa0}{%
+           family={Hasad},
+           familyi={H\bibinitperiod},
+           given={Zahid},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{793be285713c3ddc5b428cc145c5cfa0}
+      \strng{fullhash}{793be285713c3ddc5b428cc145c5cfa0}
+      \strng{bibnamehash}{793be285713c3ddc5b428cc145c5cfa0}
+      \strng{authorbibnamehash}{793be285713c3ddc5b428cc145c5cfa0}
+      \strng{authornamehash}{793be285713c3ddc5b428cc145c5cfa0}
+      \strng{authorfullhash}{793be285713c3ddc5b428cc145c5cfa0}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Perceptron from scratch in Python}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://zahidhasan.github.io/2017-09-10-perceptron/
+      \endverb
+      \verb{url}
+      \verb https://zahidhasan.github.io/2017-09-10-perceptron/
+      \endverb
+    \endentry
     \entry{WIKI01}{online}{}
       \field{sortinit}{I}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
@@ -34,6 +64,30 @@
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Iris_flower_data_set
       \endverb
+    \endentry
+    \entry{ML_PYTHON}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Puckt Puplishing}%
+      }
+      \strng{namehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{fullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{bibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorbibnamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authornamehash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \strng{authorfullhash}{bb679961e3f3f4bba79fc1cf3aa7df1c}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python Machine Learning}
+      \field{year}{2016}
     \endentry
     \entry{TIOBE}{online}{}
       \field{sortinit}{T}

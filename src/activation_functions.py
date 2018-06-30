@@ -21,12 +21,13 @@ def plot_activation(x, y, yrange=(0, 1)):
     ax = plt.gca()
     ax.yaxis.grid(True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("plt.png")
 
 def plot_binary_step():
     x = np.arange(-2, 2, 0.001)
     y = binary_step(x)
     plot_activation(x, y)
+
 
 def plot_sigmoid():
     x = np.arange(-7, 7, 0.1)
@@ -42,3 +43,6 @@ def plot_relu():
     x = np.arange(-2, 2, 0.1)
     y = relu(x)
     plot_activation(x, y)
+
+if __name__ == '__main__':
+    plot_sigmoid()

@@ -1,85 +1,44 @@
 import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.preprocessing import MinMaxScaler
+import sys
 
-class NeuralNetwork():
-    def __init__(self, num_inputs, num_outputs=1, lr=0.1):
-        self.num_inputs = num_inputs
-        self.num_outputs = num_outputs
-        self.lr = lr
-        self.layers = []
+X=np.array([[1,0,1,0], [0,0,0,0], [1,1,1,1], [1,0,0,0]])
 
-    class Layer():
-        def __init__(self, num_neurons, num_inputs):
-            self.num_neurons = num_neurons
-            self.num_inputs = num_inputs
-            self.weights = 2 * np.random.rand(num_inputs, num_neurons) -1
-            self.bias = np.random.rand(1, num_neurons)
-            self.activation_function = self._sigmoid
-            self.output = np.zeros(self.num_neurons)
+y=np.array([[1], [0], [1], [0]])
 
-        def activation_function(self, activation_function):
-            if activation_function == 'sigmoid':
-                return self._sigmoid
+def sigmoid (x):
+    return 1/(1 + np.exp(-x))
 
-        def forward(self, x):
-            self.output = self.activation_function(np.dot(x, self.weights) + self.bias)
-            return self.output
+def derivatives_sigmoid(x):
+    return x * (1 - x)
 
-        def _sigmoid(self, x):
-            return 1.0 / (1.0 + np.exp(-x))
+epoch=5000
+lr=0.1
+inputlayer_neurons = X.shape[1]
+hiddenlayer_neurons = 3
+output_neurons = 1
 
-    def add_layer(self, num_neurons):
-        if not self.layers:
-            self.layers.append(self.Layer(num_neurons, self.num_inputs))
-        else:
-            self.layers.append(self.Layer(num_neurons, self.layers[-1].num_neurons))
+wh=np.random.uniform(size=(inputlayer_neurons,hiddenlayer_neurons))
+bh=np.random.uniform(size=(1,hiddenlayer_neurons))
+wout=np.random.uniform(size=(hiddenlayer_neurons,output_neurons))
+bout=np.random.uniform(size=(1,output_neurons))
 
-    def forward(self, x):
-        for layer in self.layers:
-            x = layer.forward(x)
-        return x
+for i in range(epoch):
+    hidden_layer_input1=np.dot(X,wh)
+    hidden_layer_input=hidden_layer_input1 + bh
+    hiddenlayer_activations = sigmoid(hidden_layer_input)
+    output_layer_input1=np.dot(hiddenlayer_activations,wout)
+    output_layer_input= output_layer_input1+ bout
+    output = sigmoid(output_layer_input)
 
-    def backpropagation(self, x, y):
-        slope_layer3 = self._derivates_sigmoid(self.layers[2].output)
-        slope_layer2 = self._derivates_sigmoid(self.layers[1].output)
-        slope_layer1 = self._derivates_sigmoid(self.layers[0].output)
+    E = y-output
+    slope_output_layer = derivatives_sigmoid(output)
+    slope_hidden_layer = derivatives_sigmoid(hiddenlayer_activations)
+    d_output = E * slope_output_layer
+    Error_at_hidden_layer = d_output.dot(wout.T)
+    d_hiddenlayer = Error_at_hidden_layer * slope_hidden_layer
+    wout += hiddenlayer_activations.T.dot(d_output) *lr
+    bout += np.sum(d_output, axis=0,keepdims=True) *lr
+    wh += X.T.dot(d_hiddenlayer) *lr
+    bh += np.sum(d_hiddenlayer, axis=0,keepdims=True) *lr
 
-
-        error_layer3 = y - self.layers[2].output
-        d_layer3 = error_layer3 * slope_layer3
-
-        error_layer2 = np.dot(d_layer3, self.layers[2].weights.T)
-        d_layer2 = error_layer2 * slope_layer2
-
-        error_layer1 = np.dot(d_layer2, self.layers[1].weights.T)
-        d_layer1 = error_layer1 * slope_layer1
-
-        self.layers[2].weights += (self.layers[1].output.T.dot(d_layer3))
-        self.layers[2].bias += np.sum(d_layer3, axis=0, keepdims=True)
-        self.layers[1].weights += (self.layers[0].output.T.dot(d_layer2))
-        self.layers[1].bias += np.sum(d_layer2, axis=0, keepdims=True)
-        self.layers[0].weights += ((np.reshape(x, x.shape)).T.dot(d_layer1))
-        self.layers[0].bias += np.sum(d_layer1, axis=0, keepdims=True)
-
-    def _derivates_sigmoid(self, x):
-        return x * (1.0 - x)
-
-if __name__ == "__main__":
-    data = load_iris()
-    x = data.data[0:100]
-    y = data.target[0:100]
-    scaler = MinMaxScaler()
-    x = scaler.fit_transform(x)
-    print(x)
-    print(y)
-    y = np.reshape(y, (len(y), 1))
-    nn = NeuralNetwork(4)
-    nn.add_layer(5)
-    nn.add_layer(3)
-    nn.add_layer(1)
-
-    for i in range(500):
-        print(nn.forward(x))
-        nn.backpropagation(x, y)
-
+print(output)
